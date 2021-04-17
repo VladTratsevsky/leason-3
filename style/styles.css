@@ -1,0 +1,453 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrap {
+    width: 1400px;
+}
+
+.pink-letters {
+    color: #EC7979;
+}
+
+/*-----nav-----*/
+
+.nav {
+    height: 70px;
+    background-color: #000000;
+}
+
+.nav h3 {
+    height: 31px;
+    width: 68px;
+    display: inline-block;
+    padding: 20px 0px 19px 110px;
+    text-transform: uppercase;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav-link {
+    display: block;
+    float: right;
+    height: 20px;
+    padding: 25px 108px 25px 0px;
+}
+
+.nav-link li {
+    display: inline-block;
+    margin-right: 48px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.nav-link li:last-child {
+    margin: 0px;
+}
+
+/*-----header-----*/
+
+.header {
+    height: 600px;
+    background: url(../img/background-sity.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.header-inf {
+    display: inline-block;
+    margin: 110px 265px 0px 110px;
+    vertical-align: top;
+}
+
+.title {
+    display: inline-block;
+    margin-bottom: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 70px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header-subtitle {
+    display: block;
+    height: 99px;
+    width: 544px;
+    margin-bottom: 32px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+.header hr {
+    width: 64px;
+    margin-bottom: 39px;
+    border: 1px solid #FFFFFF;
+}
+
+.download-description {
+    display: inline-block;
+    margin-bottom: 39px;
+    height: 38px;
+    width: 282px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.axit-download {
+    display: block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 11px 27px;
+    margin-bottom: 101px;
+    background-color: transparent;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 0;
+}
+
+/*-----reg-form-----*/
+
+.reg-form {
+    background: #FFFFFF;
+    display: inline-block;
+    margin: 110px 0px 120px 0px;
+    padding: 0;
+    width: 370px;
+    height: 370px;
+    border-radius: 8px;
+
+}
+
+.reg-form label {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+}
+
+.reg-form h4 {
+    padding-bottom: 14px;
+    margin-top: 14px;
+    margin-bottom: 44px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #333333;
+}
+
+.reg-form li {
+    margin-bottom: 19px;
+}
+
+.reg-form ul {
+    list-style-type: none;
+    margin: 0px 59px 65px 59px;
+}
+
+input {
+    display: inline-block;
+    width: 252px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+.reg-button {
+    display: inline-block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-bottom: 0px;
+    height: 54px;
+    width: 370px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 0px 0px 8px 8px;
+    background: #EC7979;
+}
+
+/*-----social-inf-----*/
+
+.social-inf {
+    display: inline-block;
+    width: 365px;
+    margin-right: 129px;
+}
+
+.aside {
+    height: 110px;
+    padding-left: 110px;
+    background: #F8EFEF;
+}
+
+/*-----sprite-----*/
+
+.social-link {
+    display: inline-block;
+}
+
+.social-link a {
+    background-image: url(../img/social__icons.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    height: 42px;
+    width: 50px;
+    margin-right: 55px;
+}
+
+.facebook {
+    background-position: left;
+}
+
+.twitter {
+    background-position: -94px;
+}
+
+.google {
+    background-position: -205px;
+}
+
+.pinterest {
+    background-position: -302px;
+}
+
+.instagram {
+    background-position: -410px;
+}
+
+.stumbleupon {
+    background-position: -526px;
+}
+
+.rss {
+    background-position: -640px;
+}
+
+/*-----social-information-----*/
+
+.social-inf h4 {
+    padding-top: 14px;
+    margin-bottom: 14px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #333333;
+}
+
+.social-inf p {
+    display: inline-block;
+    padding-bottom: 17px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+}
+
+/*-----tabs-information-----*/
+
+.tabs-inf {
+    height: 600px;
+    padding: 0px 110px 0px 110px;
+}
+
+.tab-cub {
+    display: inline-block;
+    margin: 125px 118px 125px 0px;
+    vertical-align: top;
+}
+
+.tab-cub div {
+    padding: 45px 35px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-radius: 4px;
+    background: #333333;
+}
+
+.tab-cub div:first-child {
+    background: #EC7979;
+}
+
+.tab-cub div:last-child {
+    margin: 0px;
+}
+
+.tab-description {
+    display: inline-block;
+    width: 572px;
+    margin: 126px 50px 125px 0px;
+    vertical-align: top;
+}
+
+.tab-description h4 {
+    margin-bottom: 54px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.tab-description p {
+    display: inline-block;
+    margin-bottom: 19px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #86878B;
+}
+
+.tabs-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 11px 27px;
+    margin-top: 70px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: 0px;
+    background: #EC7979;
+}
+
+.sity_icon {
+    display: inline-block;
+    margin: 110px 0px 247px 0px;
+    vertical-align: top;
+}
+
+/*-----why-block-----*/
+
+.why {
+    text-align: center;
+}
+
+.why h2 {
+    padding-top: 80px;
+    margin-bottom: 34px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #212121;
+}
+
+.why hr {
+    width: 62px;
+    margin: 0px auto 34px;
+    border: 1px solid #E72424;
+}
+
+.why h6 {
+    margin-bottom: 68px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+}
+
+.card-description {
+    display: inline-block;
+    width: 350px;
+    margin: 0px 18px 116px 18px ;
+}
+
+.lamp-img {
+    display: inline-block;
+    margin-bottom: 30px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #E72424;
+    border-radius: 50%;
+    background: url(../img/lamp.png) no-repeat center;
+}
+
+.keyboard-img {
+    display: inline-block;
+    margin-bottom: 30px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #E72424;
+    border-radius: 50%;
+    background: url(../img/keyboard.png) no-repeat center;
+}
+
+.lightning-img {
+    display: inline-block;
+    margin-bottom: 30px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #E72424;
+    border-radius: 50%;
+    background: url(../img/lightning.png) no-repeat center;
+}
+
+.card-description h4 {
+    margin-bottom: 16px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #333333;
+}
+
+.card-description p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
